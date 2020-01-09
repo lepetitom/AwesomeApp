@@ -27,8 +27,9 @@
 }
 @mixin h2 {
     @include h1;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 700;
+    letter-spacing: 1px;
 }
 @mixin h3{
     @include h2;

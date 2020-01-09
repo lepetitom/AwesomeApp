@@ -135,5 +135,46 @@ header{
         height: 200px;
         position: absolute;
         right: 45%;
+        top: 15%
     }
 }
+
+// partenaire //
+
+.partnered{
+    width: 530px;
+}
+.logos{
+    width: 40%;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0px 50px;
+    img{
+        background-color: $BackgroundCardColor;
+        padding: 20px 40px;
+        border-radius: 10px;
+    }
+}
+.secpartenaire{
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    align-items: center;
+}
+.ligne{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+.logoP{
+    margin: 0px 10px;
+}
+.Triangle{
+    position: absolute;
+    left: 80px;
+    top: 1080px;
+}
+
