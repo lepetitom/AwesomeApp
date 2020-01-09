@@ -10,7 +10,7 @@ body{
     width: 100%;
     opacity: 0.5;
     position: absolute;
-    display: none;
+    display: flex;
 }
 .GreenButton{
     @include GreenButton;
@@ -63,12 +63,17 @@ section{
             align-items: center;
             li{
                 margin-right: 40px;
-                font-size: 16px;
+                font-size: 20px;
                 text-decoration: none;
                 list-style-type: none;
+
             }
             li:last-child{
                 margin-right: 0px;
+                button{
+                    padding: 13px 40px 13px 40px;
+                    font-size: 20px;
+                }
             }
         }
     }
@@ -105,7 +110,7 @@ header{
     section{
         justify-content: flex-start;
         .showcase{
-            width: 400px;
+            width: 550px;
             p{
                 margin-bottom: 50px;
             }
@@ -127,7 +132,7 @@ header{
     background-size: 70%;
     background-position:117%;
     img{
-        height: 235px;
+        height: 200px;
         position: absolute;
         right: 45%;
     }
