@@ -1,13 +1,13 @@
 body {
   margin: 0px;
-  background-color: #21212E;
+  background-color: #363535;
 }
 
 .template {
   width: 100%;
   opacity: 0.5;
   position: absolute;
-  display: flex;
+  display: none;
 }
 
 .GreenButton {
@@ -17,29 +17,30 @@ body {
   border-radius: 0px;
   border: none;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
   color: #00EC98;
   background: rgba(0, 235, 152, 0.2);
 }
 
-p {
+p, li {
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: rgba(255, 255, 255, 0.5);
+  line-height: 1.9;
 }
 
 h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 34px;
+  font-size: 40px;
   font-weight: 300;
   color: white;
 }
 
 h2 {
   font-family: "Roboto", sans-serif;
-  font-size: 34px;
+  font-size: 40px;
   font-weight: 300;
   color: white;
   font-size: 24px;
@@ -48,7 +49,7 @@ h2 {
 
 h3 {
   font-family: "Roboto", sans-serif;
-  font-size: 34px;
+  font-size: 40px;
   font-weight: 300;
   color: white;
   font-size: 24px;
@@ -59,9 +60,9 @@ h3 {
 .MainButton {
   border: none;
   border-radius: 10px;
-  padding: 15px 30px 15px 30px;
+  padding: 15px 40px 15px 40px;
   font-family: "Roboto", sans-serif;
-  font-size: 34px;
+  font-size: 40px;
   font-weight: 300;
   color: white;
   font-size: 18px;
@@ -72,9 +73,9 @@ h3 {
 .SecondButton {
   border: none;
   border-radius: 10px;
-  padding: 15px 30px 15px 30px;
+  padding: 15px 40px 15px 40px;
   font-family: "Roboto", sans-serif;
-  font-size: 34px;
+  font-size: 40px;
   font-weight: 300;
   color: white;
   font-size: 18px;
@@ -85,11 +86,99 @@ h3 {
   background-image: none !important;
   border: 2px solid white;
   box-shadow: none;
-  padding: 13px 30px 13px 30px;
+  padding: 13px 40px 13px 40px;
 }
 
 .test {
   display: none;
+}
+
+section {
+  width: 76%;
+  left: auto;
+  right: auto;
+  margin: auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+section nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+section nav ul {
+  display: flex;
+  align-items: center;
+}
+section nav ul li {
+  margin-right: 40px;
+  font-size: 16px;
+  text-decoration: none;
+  list-style-type: none;
+}
+section nav ul li:last-child {
+  margin-right: 0px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo h2 {
+  font-weight: 300;
+  margin-left: 20px;
+}
+.logo img {
+  height: 64px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+}
+.header {
+  position: absolute;
+  width: 100%;
+  height: 80vh;
+  left: auto;
+  right: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.header section {
+  justify-content: flex-start;
+}
+.header section .showcase {
+  width: 400px;
+}
+.header section .showcase p, .header section .showcase li {
+  margin-bottom: 50px;
+}
+.header section .showcase button {
+  margin-right: 15px;
+}
+
+.mockup {
+  height: 90vh;
+  width: 100vw;
+  right: 0px;
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(../source/Mockup.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 117%;
+}
+.mockup img {
+  height: 235px;
+  position: absolute;
+  right: 45%;
 }
 
 /*# sourceMappingURL=style.css.map */
